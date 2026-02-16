@@ -1,0 +1,63 @@
+Mensaje informativo inicial.
+2 cliente(s) cargado(s) desde clientes.json
+Archivo revisado en formato JSON
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 4
+
+----------------------------------------
+EDITAR CLIENTE
+----------------------------------------
+Clientes disponibles:
+1. Benjamin Carmona (ID: azs_123)
+2. Carlos Campos (ID: uio_122)
+Editando a: Carlos Campos
+Deje en blanco si no desea cambiar el dato.
+
+Ingrese el ID del cliente que desea editar: uio_122
+
+Editando a: Carlos Campos
+Deje en blanco si no desea cambiar el dato.
+Nuevo nombre (Carlos Campos): Francisco Campos
+Nuevo teléfono (56989898989): 
+Nuevo email (carlos@gmail.com): 
+Datos actualizados correctamente.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 2
+1. ID: azs_123 | Benjamin Carmona | Email: benjamin@gmail.com | Activo | Puntos: 0
+2. ID: uio_122 | Francisco Campos | Email: carlos@gmail.com | Activo | Membresía vence: 31-12-2030
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 5
+2 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.
+
+Process finished with exit code 0

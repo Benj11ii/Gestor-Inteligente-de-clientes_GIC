@@ -1,0 +1,62 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+
+class Cliente {
+    + id_cliente: str
+    + nombre: str
+    - email: str
+    + telefono: str
+    + direccion: str
+    + activo: bool
+    --
+    + mostrar_perfil() : str
+    + agregar_log(accion: str, detalle: str)
+    + mostrar_logs() : str
+}
+
+class ClienteRegular {
+    + __init__(id_cliente: str, 
+nombre: str, 
+email: str, 
+telefono: str, 
+direccion: str)
+}
+
+class ClientePremium {
+    + __init__(id_cliente: str, 
+nombre: str, 
+email: str, 
+telefono: str, 
+direccion: str)
+}
+
+class ClienteCorporativo {
+    + __init__(id_cliente: str, 
+nombre: str, 
+email: str, 
+telefono: str, 
+direccion: str)
+}
+
+class RegistroActividad {
+    - fecha_hora: datetime
+    - accion: str
+    - detalle: str
+    - id_cliente: str
+    --
+    + __init__(fecha_hora: datetime, 
+accion: str, 
+detalle: str, 
+id_cliente: str)
+    + mostrar_log() : str
+}
+
+' Relaciones de Herencia
+Cliente <|-- ClienteRegular
+Cliente <|-- ClientePremium
+Cliente <|-- ClienteCorporativo
+
+' Relación de Asociación (1 a muchos)
+Cliente *-- "0..*" RegistroActividad : contiene
+@enduml

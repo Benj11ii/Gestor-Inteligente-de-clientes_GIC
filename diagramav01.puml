@@ -1,0 +1,50 @@
+## Definición de la clase padre (superclase)
+class Cliente:
+    def __init__(self, id_cliente,nombre, email, telefono, direccion):
+        self.id_cliente = id_cliente
+        self.nombre = nombre
+        self.email = email
+        self.telefono = telefono
+        self.direccion = direccion
+        self.activo = True
+
+##Uso de getter y setter para manejar datos con las subclases
+    @property  # GETTER
+    def email(self):
+        return self._email
+
+    @email.setter  # SETTER
+    def email(self, nuevo_email):
+        if "@" in nuevo_email:
+            self._email = nuevo_email
+        else:
+            print("Error: Email no válido")
+
+##Ejemplo de uso, para mostrar perfil
+    def mostrar_perfil(self):
+        return f"ID: {self.id_cliente} | Nombre: {self.nombre} | Email: {self.email}"
+
+class ClienteRegular(Cliente):
+    def __init__(self, id_cliente,nombre, email, telefono, direccion):
+        # Hereda los atributos del padre
+        super().__init__(id_cliente,nombre, email, telefono, direccion)
+##Cliente ejemplo
+clireg = ClienteRegular("17652807-k", "Carlos Campos", "carloscampos@gmail.com", 56939393939,"Avenida siempre viva 246, Campo primaveral")
+print(clireg.mostrar_perfil()) # Método del padre
+
+class ClientePremium(Cliente):
+    def __init__(self, id_cliente,nombre, email, telefono, direccion):
+        # Hereda los atributos del padre
+        super().__init__(id_cliente,nombre, email, telefono, direccion)
+##Cliente ejemplo
+clipre = ClientePremium("17652807-1", "Evaristo Campos", "evaristocampos@gmail.com", 56949494949,"Avenida siempre viva 249, Campo primaveral")
+print(clipre.mostrar_perfil()) # Método del padre
+
+class ClienteCorporativo(Cliente):
+    def __init__(self, id_cliente,nombre, email, telefono, direccion):
+        # Hereda los atributos del padre
+        super().__init__(id_cliente,nombre, email, telefono, direccion)
+
+##Cliente ejemplo
+clicor = ClienteCorporativo("17652809-6", "Juanita Campos", "juanitacampos@gmail.com", 56919191919,"Avenida siempre viva 251, Campo primaveral")
+print(clicor.mostrar_perfil()) # Método del padre

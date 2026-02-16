@@ -1,0 +1,98 @@
+/opt/homebrew/bin/python3.14 /Users/benjamin/Documents/CursoPythonSence/Trabajo modulo 4/proyecto-modulo-4/main.py 
+Mensaje informativo inicial.
+0 cliente(s) cargado(s) desde clientes.json
+Archivo revisado en formato JSON
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+No hay clientes registrados.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 1
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): aaaaaa
+
+--- Validando identidad ---
+Validando ID: aaaaaa...
+Formato incorrecto. Debe ser: 3 letras + _ + 3 números (ej: aaa_111)
+Intente nuevamente con el formato correcto (ej: abc_123)
+
+ID del cliente (formato aaa_111): azs_123
+
+--- Validando identidad ---
+Validando ID: azs_123...
+Identidad validada para Cliente
+Nombre: Benjamin Carmona
+email (debe tener @): benjaminaaaa.com
+Email 'benjaminaaaa.com' no válido. Formato: usuario@dominio.com
+email (debe tener @): benjamin@gmail.com
+Teléfono (ej: 56912345678): 888888888a
+Teléfono no válido. Debe tener 9-15 dígitos (ej: 56912345678)
+Teléfono (ej: 56912345678): 56939393939
+Dirección (mínimo 10 caracteres): casacas
+Dirección muy corta. Mínimo 10 caracteres.
+Dirección (mínimo 10 caracteres): calle verde #10, Santiago.
+
+--- Validando identidad ---
+Validando ID: azs_123...
+Identidad validada para Benjamin Carmona
+Puntos iniciales (0 por defecto): 15
+Cliente Regular agregado
+
+Enviando email de bienvenida a benjamin@gmail.com...
+Email enviado a Benjamin Carmona
+Cliente agregado correctamente. Total: 1
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 1
+1. ID: azs_123 | Benjamin Carmona | Email: benjamin@gmail.com | Activo | Puntos: 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 4
+1 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.
+
+Process finished with exit code 0

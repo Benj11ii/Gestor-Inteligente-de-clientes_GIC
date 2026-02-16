@@ -1,0 +1,98 @@
+Mensaje informativo inicial.
+3 cliente(s) cargado(s) desde clientes.json
+Archivo revisado en formato JSON
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 4
+
+----------------------------------------
+EDITAR CLIENTE
+----------------------------------------
+Clientes disponibles:
+1. Benjamin Carmona (ID: qwe_123)
+2. Alonso Carmona (ID: asd_123)
+3. Fundo agricola San Jose (ID: zxc_123)
+
+Ingrese el número de lista o el ID del cliente a editar: 1
+
+Editando a: Benjamin Carmona
+Deje en blanco si no desea cambiar el dato.
+Nuevo nombre (Benjamin Carmona): 
+Nuevo teléfono (56989898989): 
+Nuevo email (benjamin@gmail.com): 
+Datos actualizados correctamente.
+3 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 4
+
+----------------------------------------
+EDITAR CLIENTE
+----------------------------------------
+Clientes disponibles:
+1. Benjamin Carmona (ID: qwe_123)
+2. Alonso Carmona (ID: asd_123)
+3. Fundo agricola San Jose (ID: zxc_123)
+
+Ingrese el número de lista o el ID del cliente a editar: qwe_111
+No se encontró ningún cliente con el ID 'qwe_111'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 4
+
+----------------------------------------
+EDITAR CLIENTE
+----------------------------------------
+Clientes disponibles:
+1. Benjamin Carmona (ID: qwe_123)
+2. Alonso Carmona (ID: asd_123)
+3. Fundo agricola San Jose (ID: zxc_123)
+
+Ingrese el número de lista o el ID del cliente a editar: qwe_123
+
+Editando a: Benjamin Carmona
+Deje en blanco si no desea cambiar el dato.
+Nuevo nombre (Benjamin Carmona): 
+Nuevo teléfono (56989898989): 
+Nuevo email (benjamin@gmail.com): benja@gmail.com
+Datos actualizados correctamente.
+3 cliente(s) guardado(s) en clientes.json
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 5
+3 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.
+
+Process finished with exit code 0

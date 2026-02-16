@@ -1,0 +1,92 @@
+[
+    {
+        "id_cliente": "qwe_123",
+        "nombre": "Benjamin Carmona",
+        "email": "benja@gmail.com",
+        "telefono": "56989898989",
+        "direccion": "calle uno 123, Santiago",
+        "activo": true,
+        "tipo": "ClienteRegular",
+        "logs": [
+            {
+                "fecha_hora": "2026-02-15T11:12:04.555121",
+                "accion": "CREACIÓN",
+                "detalle": "Cliente creado desde el menú",
+                "id_cliente": "qwe_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T11:12:04.555231",
+                "accion": "EMAIL",
+                "detalle": "Email de bienvenida enviado",
+                "id_cliente": "qwe_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T11:27:22.117130",
+                "accion": "EDICIÓN",
+                "detalle": "Se actualizaron datos del perfil",
+                "id_cliente": "qwe_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T11:27:56.879314",
+                "accion": "EDICIÓN",
+                "detalle": "Se actualizaron datos del perfil",
+                "id_cliente": "qwe_123"
+            }
+        ],
+        "puntos": 15
+    },
+    {
+        "id_cliente": "asd_123",
+        "nombre": "Alonso Carmona",
+        "email": "alonso@gmail.com",
+        "telefono": "56912121212",
+        "direccion": "calle dos 789, Santiago",
+        "activo": true,
+        "tipo": "ClientePremium",
+        "logs": [
+            {
+                "fecha_hora": "2026-02-15T11:12:54.107344",
+                "accion": "CREACIÓN",
+                "detalle": "Cliente creado desde el menú",
+                "id_cliente": "asd_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T11:12:54.107369",
+                "accion": "EMAIL",
+                "detalle": "Email de bienvenida enviado",
+                "id_cliente": "asd_123"
+            }
+        ],
+        "membresia_vence": "31-12-2030"
+    },
+    {
+        "id_cliente": "zxc_123",
+        "nombre": "Fundo agricola San Jose",
+        "email": "sanjose@gmail.com",
+        "telefono": "56934343434",
+        "direccion": "calle tres 345, Limache",
+        "activo": true,
+        "tipo": "ClienteCorporativo",
+        "logs": [
+            {
+                "fecha_hora": "2026-02-15T11:14:27.974086",
+                "accion": "CREACIÓN",
+                "detalle": "Cliente creado desde el menú",
+                "id_cliente": "zxc_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T11:14:27.974162",
+                "accion": "EMAIL",
+                "detalle": "Email de bienvenida enviado",
+                "id_cliente": "zxc_123"
+            },
+            {
+                "fecha_hora": "2026-02-15T14:11:37.345572",
+                "accion": "EDICIÓN",
+                "detalle": "Se actualizaron datos del perfil",
+                "id_cliente": "zxc_123"
+            }
+        ],
+        "rut_empresa": "787897890"
+    }
+]

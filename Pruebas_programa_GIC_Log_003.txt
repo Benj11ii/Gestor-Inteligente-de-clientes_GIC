@@ -1,0 +1,232 @@
+/opt/homebrew/bin/python3.14 /Users/benjamin/Documents/CursoPythonSence/Trabajo modulo 4/proyecto-modulo-4/main.py 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+No hay clientes registrados.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 1
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): qwe_123
+
+--- Validando identidad ---
+Validando ID: qwe_123...
+Identidad validada para Cliente
+Nombre: Benjamin Carmona
+Email (debe tener @): benjamin@gmail.com
+Teléfono (ej: 56912345678): 56989898989
+Dirección (mínimo 10 caracteres): calle uno 123, Santiago
+Puntos iniciales (0 por defecto): 15
+Cliente Regular agregado
+
+Enviando email de bienvenida a benjamin@gmail.com...
+Email enviado a Benjamin Carmona
+Cliente agregado correctamente. Total: 1
+1 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 1
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benjamin@gmail.com | Estado: Activo | Puntos: 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 2
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): asd_123
+
+--- Validando identidad ---
+Validando ID: asd_123...
+Identidad validada para Cliente
+Nombre: Alonso Carmona
+Email (debe tener @): alonso@gmail.com
+Teléfono (ej: 56912345678): 56912121212
+Dirección (mínimo 10 caracteres): calle dos 789, Santiago
+Cliente Premium agregado (membresía válida hasta 31-12-2030)
+
+Enviando email de bienvenida a alonso@gmail.com...
+Email enviado a Alonso Carmona
+Cliente agregado correctamente. Total: 2
+2 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 3
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): zxc_123
+
+--- Validando identidad ---
+Validando ID: zxc_123...
+Identidad validada para Cliente
+Nombre: Fundo agricola San Jose
+Email (debe tener @): sanjose@gmail.com
+Teléfono (ej: 56912345678): 56934343434
+Dirección (mínimo 10 caracteres): calle tres 345, Limache
+Rut de la empresa: 787897890
+Cliente Corporativo agregado
+
+Enviando email de bienvenida a sanjose@gmail.com...
+Email enviado a Fundo agricola San Jose
+Cliente agregado correctamente. Total: 3
+3 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 3
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benjamin@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 1
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): ert_234
+
+--- Validando identidad ---
+Validando ID: ert_234...
+Identidad validada para Cliente
+Nombre: Juan Campos
+Email (debe tener @): juan@gmail.com
+Teléfono (ej: 56912345678): 56967676767
+Dirección (mínimo 10 caracteres): calle cuatro 345, Santiago
+Puntos iniciales (0 por defecto): 30
+Cliente Regular agregado
+
+Enviando email de bienvenida a juan@gmail.com...
+Email enviado a Juan Campos
+Cliente agregado correctamente. Total: 4
+4 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 4
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benjamin@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+4. Tipo: Regular | ID: ert_234 | Nombre: Juan Campos | Email: juan@gmail.com | Estado: Activo | Puntos: 30
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 5
+4 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.
+
+Process finished with exit code 0

@@ -1,0 +1,82 @@
+/opt/homebrew/bin/python3.14 /Users/benjamin/Documents/CursoPythonSence/Trabajo modulo 4/proyecto-modulo-4/main.py 
+Mensaje informativo inicial.
+4 cliente(s) cargado(s) desde clientes.json
+Archivo revisado en formato JSON
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 4
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benjamin@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+4. Tipo: Regular | ID: ert_234 | Nombre: Juan Campos | Email: juan@gmail.com | Estado: Activo | Puntos: 30
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 3
+
+----------------------------------------
+ELIMINAR CLIENTE
+----------------------------------------
+Clientes disponibles:
+1. Benjamin Carmona (ID: qwe_123)
+2. Alonso Carmona (ID: asd_123)
+3. Fundo agricola San Jose (ID: zxc_123)
+4. Juan Campos (ID: ert_234)
+
+Opciones de eliminación:
+1. Eliminar por número de lista
+2. Eliminar por ID
+3. Cancelar
+Seleccione una opción (1-3): 1
+Número de cliente a eliminar (1-4): 4
+Cliente 'Juan Campos' eliminado correctamente.
+3 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 3
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benjamin@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 5
+3 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.
+
+Process finished with exit code 0
