@@ -57,7 +57,7 @@ def validar_formato_id(id_cliente, nombre):
     Ejemplo: abc_123
     """
     try:
-        print(f"🔍 Validando formato de ID: {id_cliente}...")
+        print(f"Validando formato de ID: {id_cliente}...")
         time.sleep(0.5)  # Simula tiempo de procesamiento
 
         # Patrón: 3 letras (mayúsculas o minúsculas) + guión bajo + 3 números
@@ -71,5 +71,5 @@ def validar_formato_id(id_cliente, nombre):
             print(f"   Ejemplos válidos: abc_123, XYZ_789, pqr_456")
             return False
     except Exception as e:
-        print(f"⚠️ Error en validación de formato: {e}")
+        print(f"Error en validación de formato: {e}")
         return False

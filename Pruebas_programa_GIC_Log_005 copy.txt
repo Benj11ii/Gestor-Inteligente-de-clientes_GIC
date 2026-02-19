@@ -43,21 +43,21 @@ Seleccione tipo de cliente (1-3) o 4 para volver a menu: 1
 ID del cliente (formato aaa_111): fff_555
 
 --- Validando identidad ---
-🔍 Validando formato de ID: fff_555...
-✅ Formato de ID válido para Cliente
+Validando formato de ID: fff_555...
+Formato de ID válido para Cliente
 Nombre: Juan Araya
 Email: dificil@.
 
 --- Validando email con API externa ---
 Conectando con servicio de validación...
-❌ Formato de email inválido
+Formato de email inválido
 Debe ingresar un email válido. Intente nuevamente.
 
 Email: email@gmail.com
 
 --- Validando email con API externa ---
 Conectando con servicio de validación...
-✅ Email validado exitosamente por API externa
+Email validado exitosamente por API externa
 Teléfono (ej: 56912345678): 56939393939
 Dirección (mínimo 10 caracteres): calle gente buena 123, Santiago
 Puntos iniciales (0 por defecto): 0

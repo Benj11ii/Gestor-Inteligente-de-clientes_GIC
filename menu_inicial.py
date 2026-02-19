@@ -75,11 +75,11 @@ def agregar_cliente(clientes):
                 print("✅ Email validado exitosamente por API externa")
                 break  # Sale del bucle SOLO si la API dice que es válido
             else:
-                print(f"❌ {mensaje}")
+                print(f"{mensaje}")
                 print("Debe ingresar un email válido. Intente nuevamente.\n")
                 
         except Exception as e:
-            print(f"❌ Error al conectar con API de validación: {e}")
+            print(f"Error al conectar con API de validación: {e}")
             print("No se puede continuar sin validar el email.")
             print("Intente nuevamente más tarde o con otro email.\n")    
     
