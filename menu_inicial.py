@@ -1,5 +1,6 @@
 # Este es el archivo para el menu inicial
 import os
+import re
 from modelos import ClienteRegular, ClientePremium, ClienteCorporativo
 from gestor_archivos import guardar_clientes, cargar_clientes
 from conexion_api_externa import validar_formato_id, enviar_email_bienvenida
@@ -86,7 +87,6 @@ def agregar_cliente(clientes):
     while True:
         telefono = input("Teléfono (ej: 56912345678): ")
         try:
-            import re
             if re.match(r'^\+?\d{9,15}$', telefono):
                 break
             else:

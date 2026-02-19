@@ -3,6 +3,7 @@
 
 import requests
 import time
+import re
 
 API_URL = "https://rapid-email-verifier.fly.dev/api/validate"
 
