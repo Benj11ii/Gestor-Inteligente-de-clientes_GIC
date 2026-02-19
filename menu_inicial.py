@@ -3,6 +3,7 @@ import os
 from modelos import ClienteRegular, ClientePremium, ClienteCorporativo
 from gestor_archivos import guardar_clientes, cargar_clientes
 from api_simuladas import validar_formato_id, enviar_email_bienvenida
+from api_simuladas import validar_email_con_api, validar_formato_local
 
 ## Muestra las opciones del menu
 def mostrar_menu():
@@ -61,17 +62,27 @@ def agregar_cliente(clientes):
             print("Intente nuevamente con el formato correcto (ej: abc_123)\n")
 
     nombre = input("Nombre: ")
+    #Validación con API externa en mail.
     while True:
-        email = input("Email (debe tener @): ")
+        email = input("Email: ")
+        
         try:
-            import re
-            if re.match(r'^[\w\.-]+@[\w\.-]+\.\w+$', email):
-                break
+            print("\n--- Validando email con API externa ---")
+            es_valido, mensaje = validar_email_con_api(email, nombre)
+            
+            if es_valido:
+                print("✅ Email validado exitosamente por API externa")
+                break  # Sale del bucle SOLO si la API dice que es válido
             else:
-                print(f"Email '{email}' no válido. Formato: usuario@dominio.com")
+                print(f"❌ {mensaje}")
+                print("Debe ingresar un email válido. Intente nuevamente.\n")
+                
         except Exception as e:
-            print(f"Error en validación de email: {e}. Intente nuevamente.")
-
+            print(f"❌ Error al conectar con API de validación: {e}")
+            print("No se puede continuar sin validar el email.")
+            print("Intente nuevamente más tarde o con otro email.\n")    
+    
+    #Validación para teléfono sencilla
     while True:
         telefono = input("Teléfono (ej: 56912345678): ")
         try:
