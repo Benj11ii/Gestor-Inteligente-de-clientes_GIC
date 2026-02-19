@@ -3,7 +3,7 @@ import os
 from modelos import ClienteRegular, ClientePremium, ClienteCorporativo
 from gestor_archivos import guardar_clientes, cargar_clientes
 from conexion_api_externa import validar_formato_id, enviar_email_bienvenida
-from conexion_api_externa import validar_email_con_api, validar_formato_local
+from conexion_api_externa import validar_email_con_api
 
 ## Muestra las opciones del menu
 def mostrar_menu():
