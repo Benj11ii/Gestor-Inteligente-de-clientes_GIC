@@ -64,10 +64,10 @@ def validar_formato_id(id_cliente, nombre):
         patron = r'^[A-Za-z]{3}_\d{3}$'
 
         if re.match(patron, id_cliente):
-            print(f"✅ Formato de ID válido para {nombre}")
+            print(f"Formato de ID válido para {nombre}")
             return True
         else:
-            print(f"❌ Formato incorrecto. Debe ser: 3 letras + _ + 3 números")
+            print(f"Formato incorrecto. Debe ser: 3 letras + _ + 3 números")
             print(f"   Ejemplos válidos: abc_123, XYZ_789, pqr_456")
             return False
     except Exception as e:
