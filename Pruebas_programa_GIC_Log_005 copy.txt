@@ -1,0 +1,100 @@
+Mensaje informativo inicial.
+3 cliente(s) cargado(s) desde clientes.json
+Archivo revisado en formato JSON
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 3
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benja@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 2
+
+----------------------------------------
+AGREGAR NUEVO CLIENTE
+----------------------------------------
+Tipos de cliente:
+1. Regular (con puntos)
+2. Premium (con membresía)
+3. Corporativo (Rut Empresa)
+4. Volver al menu principal
+Seleccione tipo de cliente (1-3) o 4 para volver a menu: 1
+
+--- Datos básicos ---
+ID del cliente (formato aaa_111): fff_555
+
+--- Validando identidad ---
+🔍 Validando formato de ID: fff_555...
+✅ Formato de ID válido para Cliente
+Nombre: Juan Araya
+Email: dificil@.
+
+--- Validando email con API externa ---
+Conectando con servicio de validación...
+❌ Formato de email inválido
+Debe ingresar un email válido. Intente nuevamente.
+
+Email: email@gmail.com
+
+--- Validando email con API externa ---
+Conectando con servicio de validación...
+✅ Email validado exitosamente por API externa
+Teléfono (ej: 56912345678): 56939393939
+Dirección (mínimo 10 caracteres): calle gente buena 123, Santiago
+Puntos iniciales (0 por defecto): 0
+Cliente Regular agregado
+
+Simulando envío de email de bienvenida a Juan Araya...
+Email de bienvenida registrado en logs (simulado)
+Cliente agregado correctamente. Total: 4
+4 cliente(s) guardado(s) en clientes.json
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 1
+
+Total de clientes: 4
+1. Tipo: Regular | ID: qwe_123 | Nombre: Benjamin Carmona | Email: benja@gmail.com | Estado: Activo | Puntos: 15
+2. Tipo: Premium | ID: asd_123 | Nombre: Alonso Carmona | Email: alonso@gmail.com | Estado: Activo | Membresía vence: 31-12-2030
+3. Tipo: Corporativo | ID: zxc_123 | Nombre: Fundo agricola San Jose | Email: sanjose@gmail.com | Estado: Activo | Facturando a nombre de: Fundo agricola San Jose (rut_empresa: 787897890)
+4. Tipo: Regular | ID: fff_555 | Nombre: Juan Araya | Email: email@gmail.com | Estado: Activo | Puntos: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GESTOR INTELIGENTE DE CLIENTES (GIC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ver clientes registrados
+2. Agregar nuevo cliente
+3. Eliminar cliente
+4. Editar cliente
+5. Guardado automático y Salir del programa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elija una opción: 5
+4 cliente(s) guardado(s) en clientes.json
+
+¡Gracias por usar el GIC!. Hasta pronto.

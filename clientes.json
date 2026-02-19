@@ -88,5 +88,29 @@
             }
         ],
         "rut_empresa": "787897890"
+    },
+    {
+        "id_cliente": "fff_555",
+        "nombre": "Juan Araya",
+        "email": "email@gmail.com",
+        "telefono": "56939393939",
+        "direccion": "calle gente buena 123, Santiago",
+        "activo": true,
+        "tipo": "ClienteRegular",
+        "logs": [
+            {
+                "fecha_hora": "2026-02-19T15:51:25.251198",
+                "accion": "CREACIÓN",
+                "detalle": "Cliente creado desde el menú",
+                "id_cliente": "fff_555"
+            },
+            {
+                "fecha_hora": "2026-02-19T15:51:25.251356",
+                "accion": "EMAIL",
+                "detalle": "Email de bienvenida enviado",
+                "id_cliente": "fff_555"
+            }
+        ],
+        "puntos": 0
     }
 ]
